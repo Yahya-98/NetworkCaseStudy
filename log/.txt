@@ -1,0 +1,2 @@
+2022-09-21 10:08:31 INFO  BaseTest:15 - Test Start
+2022-09-21 10:08:36 INFO  BasePage:22 - Current Url = https://www.network.com.tr/

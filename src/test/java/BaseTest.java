@@ -49,12 +49,12 @@ public class BaseTest {
 
     @Test
     public void step6checkPrductCapabilities(){
-        Assert.assertEquals(true,bp.checkProductCapabilities());
+        Assert.assertTrue(bp.checkProductCapabilities());
     }
 
     @Test
     public void step7checkProductDiscountPrice(){
-        Assert.assertEquals(true,bp.checkProductDiscount());
+        Assert.assertTrue(bp.checkProductDiscount());
     }
 
     @Test

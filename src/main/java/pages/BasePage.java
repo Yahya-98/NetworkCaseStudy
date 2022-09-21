@@ -79,11 +79,9 @@ public class BasePage {
 
     public boolean checkProductCapabilities(){
         log.info("Chech the price and size same the baskeetpage and storepage");
-        if (productOldPrice.equals(wt.until(ExpectedConditions.elementToBeClickable(saleOldPrice)).getText())
+        return productOldPrice.equals(wt.until(ExpectedConditions.elementToBeClickable(saleOldPrice)).getText())
                 && productCheepPrice.equals(driver.findElement(salePrice).getText())
-                && productSize.equals(driver.findElement(saleSize).getText())){
-            return true;
-        }else {return false;}
+                && productSize.equals(driver.findElement(saleSize).getText());
 
     }
 

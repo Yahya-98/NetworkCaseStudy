@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e981de-6393-4b91-bedb-7471310c8994" name="Changes" comment="driver setup and log4j added">
+    <list default="true" id="d7e981de-6393-4b91-bedb-7471310c8994" name="Changes" comment="login not added">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BasketPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/StorePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DriverSetup/DriverSetup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
     </list>
@@ -44,7 +48,20 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.BaseTest">
+  <component name="RunManager" selected="JUnit.TestPage">
+    <configuration name="LoginPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pages.LoginPage" />
+      <module name="NetworkCase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main" />
       <module name="NetworkCase" />
@@ -52,10 +69,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="pages.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pages.main" />
+      <module name="NetworkCase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NetworkCase" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BaseTest" />
+      <option name="MAIN_CLASS_NAME" value="TestPage" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -63,8 +93,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BaseTest" />
+        <item itemvalue="JUnit.TestPage" />
+        <item itemvalue="Application.LoginPage" />
         <item itemvalue="Application.main" />
+        <item itemvalue="Application.pages.main" />
       </list>
     </recent_temporary>
   </component>
@@ -84,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663744236413</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="login not added">
+      <created>1663776998584</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663776998584</updated>
+    </task>
+    <task id="LOCAL-00003" summary="login not added">
+      <created>1663777113285</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663777113285</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +146,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="driver setup and log4j added" />
-    <option name="LAST_COMMIT_MESSAGE" value="driver setup and log4j added" />
+    <MESSAGE value="login not added" />
+    <option name="LAST_COMMIT_MESSAGE" value="login not added" />
   </component>
 </project>

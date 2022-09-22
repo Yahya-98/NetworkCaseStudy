@@ -1,7 +1,11 @@
 # NetworkCaseStudy
 
-## Test Case
+* main/java/DriverSetup chrome driver kurulumunun yapıldığı sınıftır chrome driver için bonigarcia kütüphanesini kullandım
+* main/java/pages class larında sayfalarda yapılan işlemler vvardım
+* main/java/resources registrationData.csv dosyası kullanıcı girişi için eposta ve şifre verilerini içerir giriş için buradaki veriler kullanılır
+* test/java/TestPage class ında testler yer alır
 
+## Test Case
 
 * Network sayfasına girilir
 
